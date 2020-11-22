@@ -1,0 +1,106 @@
+body {
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.oval {
+  /* background-color: #ff33cc; */
+  width: 70%;
+  height: 8%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-color: black;
+  border-width: 20px;
+  margin-top: 30px;
+  /* margin: auto; */
+}
+.letter .letter1 .verb {
+  display: inline-block;
+  position: relative;
+}
+.searching {
+  display: inline-block;
+}
+
+.idea {
+  display: flex;
+  flex-direction: column;
+}
+
+.verb {
+  color: #030303;
+}
+
+.noun {
+}
+
+.container {
+  background-color: #68c9ff;
+  height: 90vh;
+  border-radius: 10em;
+  width: 90%;
+  margin: 5vh auto;
+}
+
+.container h1 {
+  font-size: 80px;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+
+.container small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+
+.content {
+  height: 60vh;
+  width: 80%;
+  margin: 7vh auto;
+  border-radius: 10em;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.content h2 {
+  width: 100%;
+  padding-top: 1.5em;
+  text-align: center;
+  font-size: 45px;
+  color: #68c9ff;
+  line-height: 140%;
+}
+
+.content button {
+  background-color: #68c9ff;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: white;
+  width: 50%;
+  margin-top: 2em;
+  height: 3em;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}

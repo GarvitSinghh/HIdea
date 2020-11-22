@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/c4031f1c84aa3fac3bbaa75f810c160e?family=Countryside);
+
+.container {
+  background-color: #68c9ff;
+  height: 90vh;
+  border-radius: 5em;
+  width: 95%;
+  margin: 5vh auto;
+}
+
+.container h1 {
+  font-size: 80px;
+  /* font-family: "Countryside", cursive; */
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+
+.container small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: lighter;
+  /* font-family: "Lobster", cursive; */
+  color: black;
+}
+
+.content {
+  height: 60vh;
+  width: 80%;
+  margin: 7vh auto;
+  border-radius: 10em;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.content h2 {
+  width: 100%;
+  padding-top: 1.5em;
+  text-align: center;
+  font-size: 45px;
+  color: #68c9ff;
+  line-height: 140%;
+}
+
+.content button {
+  background-color: #68c9ff;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  cursor: pointer;
+  margin-top: 1em;
+  height: 3em;
+  border-radius: 30px;
+  border: none;
+}
+
+.content button:hover {
+  background-color: darkcyan;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
