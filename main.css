@@ -60,6 +60,7 @@
   height: 3em;
   border-radius: 30px;
   border: none;
+  outline: none;
 }
 
 .content button:hover {
