@@ -3,7 +3,8 @@
 .container {
   background-color: #68c9ff;
   height: 90vh;
-  border-radius: 5em;
+  box-shadow: 0px 6px 19px rgba(0, 0, 0, 0.5);
+  border-radius: 82px;
   width: 95%;
   margin: 5vh auto;
 }
@@ -11,9 +12,10 @@
 .container h1 {
   font-size: 80px;
   /* font-family: "Countryside", cursive; */
-  font-weight: lighter;
-  color: black;
+  font-weight: bold;
+  color: white;
   text-align: center;
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .container small {
@@ -24,19 +26,22 @@
   -ms-flex-pack: center;
   justify-content: center;
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: bold;
   /* font-family: "Lobster", cursive; */
-  color: black;
+  color: white;
+  text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .content {
   height: 60vh;
   width: 80%;
-  margin: 7vh auto;
-  border-radius: 10em;
+  margin: 5vh auto;
+  border-radius: 82px;
   background-color: white;
   font-family: "Inter", sans-serif;
   text-align: center;
+  border: 3px solid rgba(255, 255, 255, 0.48);
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .content h2 {
@@ -58,17 +63,21 @@
   cursor: pointer;
   margin-top: 1em;
   height: 3em;
-  border-radius: 30px;
+  border-radius: 26px;
   border: none;
   outline: none;
+  box-shadow: 0px 0px 5px 2px rgba(84, 84, 84, 0.3);
+  transition: 0.6s;
 }
 
 .content button:hover {
-  background-color: darkcyan;
+  background-color: rgb(0, 190, 190);
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(202, 202, 202, 0.25);
 }
